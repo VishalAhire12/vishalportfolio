@@ -1,0 +1,128 @@
+span{
+  color:aqua;
+}
+li{
+    list-style: none;
+}
+.btn-box{
+  color: rgb(145, 32, 32);
+  border-radius: 10px;
+ 
+}
+#nav1{
+    color:rgb(71, 71, 163);
+   
+}
+a{
+  color: aliceblue;
+}
+.Nav2{
+    display: flex;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 600px;
+    padding-right: 400px;
+
+}
+.nav_pr{
+  display: grid; 
+  grid-template-columns: auto auto;
+  
+  
+}
+.name{
+  padding: 30px;
+}
+.nav {
+  /* display: grid;
+  grid-row-end: auto 1;
+  column-gap: 40px;
+  padding-top: 30px;
+  grid-template-columns: auto auto auto auto; */
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  margin-right: 50px;
+  gap: 30px
+  
+  
+}
+.about{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 50px;
+}
+.about-img img{
+  padding-bottom: 10%;
+  max-width: 500px;
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
+}
+#img2{
+  background-color: rgb(74, 129, 129);
+  border-width: 10px;
+  border-radius: 200px;
+  display: flex;
+  flex-direction: row;
+  width: 500%;
+ 
+ padding-top: 100px;
+ display: flex;
+  align-items:end;
+  padding: 0px 0% 0;
+  background-position: 300px;
+  background-size:contain;
+  margin: 10px 10%;
+}
+
+  
+
+.about-text h2{
+  font-size: 60px;
+}
+.about-text h2 span{
+  color:blueviolet;}
+  p{
+    color: aliceblue;
+  }
+  h4{
+    color:rgb(182, 170, 193)
+  }
+  a{
+    color: aliceblue;
+  }
+  .btn-box{
+    display: flex;
+    justify-content:space-between;
+    color: rgb(161, 234, 89);
+    border-radius: 20px;
+    padding: 10px 20px;
+    size: 40px;
+    background-color:rgb(23, 157, 157);
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#button{
+  margin-top: 30px;
+  margin-left: 200px;
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+}
+.button1{
+  color: white;
+  background-color: black;
+  border-color: aqua;
+  
+  border-top-left-radius: 10px;
+  border-radius: 20px;
+  font-size: 1.2em;
+  
+}
+ 

@@ -1,0 +1,120 @@
+
+li{
+    list-style: none;
+}
+.nav_pr{
+    display: grid; 
+    grid-template-columns: auto auto;
+    
+}
+.name{
+    padding: 30px;
+}
+.nav {
+    /* display: grid;
+    grid-row-end: auto 1;
+    column-gap: 40px;
+    padding-top: 30px;
+    grid-template-columns: auto auto auto auto; */
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-right: 50px;
+    gap: 30px
+    
+    
+}
+
+.div2{
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 10px;
+
+}
+a{
+    color: aliceblue;
+}
+span{color:rgb(12, 240, 240)}
+#b{
+    background-image: url(../images/bodyi.webp);
+   
+}
+a{
+    color: white;
+}
+#techstack{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+#button{
+    margin-top: 30px;
+    margin-left: 200px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button1{
+    color: white;
+    background-color: black;
+    border-color: aqua;
+    font-size: 1.2em;
+    border-top-left-radius: 10px;
+    border-radius: 20px;
+    
+}
+#resume{
+    display: flex;
+    padding-top: 50px;
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+        
+}
+.resume1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+}
+#footer1{
+    background-color:#161515;
+    margin-top: 400px;
+    padding-top: 10px;
+    padding: 10px;
+  }
+  .subfooter1{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-left: 900px;
+      padding-bottom: 10px;
+  
+  }
+  .subfooter2{
+      padding-left: 200px;
+      margin-right: 400px;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      text-align: center;
+      margin-top: 20px;
+      
+  }
+  .subfooter3{
+      margin-left: 100px;
+      margin-top: 20px;
+      box-shadow: turquoise;
+      background-color: black;
+      border-color: aqua;
+      color: white;
+      border-top-left-radius: 10px;
+      border-radius: 30px;
+  }
+  #copy{
+      background-color:black;
+      text-align: center;
+      margin-top:0px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+  
+  }
